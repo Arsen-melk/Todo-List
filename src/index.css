@@ -1,3 +1,8 @@
+*{
+  box-sizing: border-box;
+}
+
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -10,4 +15,67 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+
+.App{
+  max-width: 800px;
+  margin: 10px auto;
+  text-align: center;
+  background-color: aliceblue;
+  padding: 50px 0;
+  
+}
+.App form{
+  padding: 15px 0;
+  
+}
+.App form input{
+  background-color: hwb(0 98% 2%);
+  border-radius: 10px 0 0 10px;
+  text-align: center;
+  border: none;
+  outline-color: rgb(231, 117, 115);
+  padding: 15px 0;
+  color: rgb(86, 84, 84);
+}
+
+.App form button{
+  background-color: rgb(238, 54, 51);
+  color: white;
+  border-radius: 0 10px 10px 0;
+  border: none;
+  padding: 15px 15px;
+}
+
+.todoList{
+  background-color: aliceblue;
+  margin: 10px 0;
+}
+
+.todoList .todoItem{
+  margin: 0 10px;
+  
+}
+.todoItem{
+  color: rgb(86, 84, 84);
+}
+.todoList button{
+  margin: 5px 10px;
+  background-color: rgb(61, 244, 48);
+  color: whitesmoke;
+  border-color: beige;
+}
+
+.todoFooter span{
+   margin-right: 10px;
+   color: rgb(86, 84, 84);
+   font-size: 16px;
+}
+
+.todoFooter button{
+  background-color: rgb(61, 244, 48);
+  color: whitesmoke;
+  border-color: beige;
+  font-size: 18px;
 }
